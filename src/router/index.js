@@ -18,14 +18,8 @@ export default new Router({
       components: {t:t,te:te},
       children:[
       	{
-      	// 	path:"/",
-      	// 	component:te,
-      	// 	children:[
-      	// 		{
-      				path:"",
-      				components:{tes,test}
-      		// 	}
-      		// ]
+			path:"",
+			components:{tes,test}
       	}
       ]
     }
